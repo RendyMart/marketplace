@@ -1,0 +1,764 @@
+DEBUG - 2025-06-19 11:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-19 11:07:09 --> App\Models\ProductModel Object
+(
+    [pager] => 
+    [db:protected] => CodeIgniter\Database\MySQLi\Connection Object
+        (
+            [DSN:protected] => 
+            [port:protected] => 3306
+            [hostname:protected] => 127.0.0.1
+            [username:protected] => root
+            [password:protected] => 
+            [database:protected] => marketplace
+            [DBDriver] => MySQLi
+            [subdriver:protected] => 
+            [DBPrefix:protected] => 
+            [pConnect:protected] => 
+            [DBDebug:protected] => 1
+            [charset:protected] => utf8mb4
+            [DBCollat:protected] => utf8mb4_general_ci
+            [swapPre:protected] => 
+            [encrypt:protected] => 
+            [compress:protected] => 
+            [strictOn:protected] => 
+            [failover:protected] => Array
+                (
+                )
+
+            [lastQuery:protected] => CodeIgniter\Database\Query Object
+                (
+                    [originalQueryString:protected] => SELECT *
+FROM `category`
+                    [finalQueryString:protected] => SELECT *
+FROM `category`
+                    [binds:protected] => Array
+                        (
+                        )
+
+                    [bindMarker:protected] => ?
+                    [startTime:protected] => 1750331229.1088
+                    [endTime:protected] => 1750331229.1093
+                    [errorCode:protected] => 
+                    [errorString:protected] => 
+                    [db] => CodeIgniter\Database\MySQLi\Connection Object
+ *RECURSION*
+                )
+
+            [connID] => mysqli Object
+                (
+                    [affected_rows] => 3
+                    [client_info] => mysqlnd 8.4.8
+                    [client_version] => 80408
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 2
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 10.4.28-MariaDB
+                    [server_version] => 100428
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 1013
+                    [warning_count] => 0
+                )
+
+            [resultID] => mysqli_result Object
+                (
+                    [current_field] => 0
+                    [field_count] => 2
+                    [lengths] => 
+                    [num_rows] => 3
+                    [type] => 0
+                )
+
+            [protectIdentifiers] => 1
+            [reservedIdentifiers:protected] => Array
+                (
+                    [0] => *
+                )
+
+            [escapeChar] => `
+            [likeEscapeStr] =>  ESCAPE '%s' 
+            [likeEscapeChar] => !
+            [pregEscapeChar:protected] => Array
+                (
+                    [1] => `
+                    [0] => `
+                    [3] => `
+                    [2] => `
+                )
+
+            [dataCache] => Array
+                (
+                )
+
+            [connectTime:protected] => 1750331229.1078
+            [connectDuration:protected] => 0.00092792510986328
+            [pretend:protected] => 
+            [transEnabled] => 1
+            [transStrict] => 1
+            [transDepth:protected] => 0
+            [transStatus:protected] => 1
+            [transFailure:protected] => 
+            [transException:protected] => 
+            [aliasedTables:protected] => Array
+                (
+                )
+
+            [queryClass:protected] => CodeIgniter\Database\Query
+            [dateFormat:protected] => Array
+                (
+                    [date] => Y-m-d
+                    [datetime] => Y-m-d H:i:s
+                    [datetime-ms] => Y-m-d H:i:s.v
+                    [datetime-us] => Y-m-d H:i:s.u
+                    [time] => H:i:s
+                )
+
+            [deleteHack] => 1
+            [mysqli] => mysqli Object
+                (
+                    [affected_rows] => 3
+                    [client_info] => mysqlnd 8.4.8
+                    [client_version] => 80408
+                    [connect_errno] => 0
+                    [connect_error] => 
+                    [errno] => 0
+                    [error] => 
+                    [error_list] => Array
+                        (
+                        )
+
+                    [field_count] => 2
+                    [host_info] => 127.0.0.1 via TCP/IP
+                    [info] => 
+                    [insert_id] => 0
+                    [server_info] => 10.4.28-MariaDB
+                    [server_version] => 100428
+                    [sqlstate] => 00000
+                    [protocol_version] => 10
+                    [thread_id] => 1013
+                    [warning_count] => 0
+                )
+
+            [resultMode] => 0
+            [numberNative] => 
+            [foundRows] => 
+        )
+
+    [insertID:protected] => 0
+    [DBGroup:protected] => 
+    [returnType:protected] => array
+    [tempReturnType:protected] => array
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [converter:protected] => 
+    [protectFields:protected] => 1
+    [allowedFields:protected] => Array
+        (
+            [0] => name
+            [1] => description
+            [2] => price
+            [3] => category_id
+        )
+
+    [useTimestamps:protected] => 
+    [dateFormat:protected] => datetime
+    [createdField:protected] => created_at
+    [updatedField:protected] => updated_at
+    [useSoftDeletes:protected] => 
+    [tempUseSoftDeletes:protected] => 
+    [deletedField:protected] => deleted_at
+    [allowEmptyInserts:protected] => 
+    [updateOnlyChanged:protected] => 1
+    [validationRules:protected] => Array
+        (
+        )
+
+    [validationMessages:protected] => Array
+        (
+        )
+
+    [skipValidation:protected] => 
+    [cleanValidationRules:protected] => 1
+    [validation:protected] => 
+    [allowCallbacks:protected] => 1
+    [tempAllowCallbacks:protected] => 1
+    [beforeInsert:protected] => Array
+        (
+        )
+
+    [afterInsert:protected] => Array
+        (
+        )
+
+    [beforeUpdate:protected] => Array
+        (
+        )
+
+    [afterUpdate:protected] => Array
+        (
+        )
+
+    [beforeInsertBatch:protected] => Array
+        (
+        )
+
+    [afterInsertBatch:protected] => Array
+        (
+        )
+
+    [beforeUpdateBatch:protected] => Array
+        (
+        )
+
+    [afterUpdateBatch:protected] => Array
+        (
+        )
+
+    [beforeFind:protected] => Array
+        (
+        )
+
+    [afterFind:protected] => Array
+        (
+        )
+
+    [beforeDelete:protected] => Array
+        (
+        )
+
+    [afterDelete:protected] => Array
+        (
+        )
+
+    [table:protected] => products
+    [primaryKey:protected] => id
+    [useAutoIncrement:protected] => 1
+    [builder:protected] => CodeIgniter\Database\MySQLi\Builder Object
+        (
+            [resetDeleteData:protected] => 
+            [QBSelect:protected] => Array
+                (
+                )
+
+            [QBDistinct:protected] => 
+            [QBFrom:protected] => Array
+                (
+                    [0] => `products`
+                )
+
+            [QBJoin:protected] => Array
+                (
+                )
+
+            [QBWhere:protected] => Array
+                (
+                    [0] => Array
+                        (
+                            [condition] => category_id = :category_id:
+                            [escape] => 1
+                        )
+
+                )
+
+            [QBGroupBy] => Array
+                (
+                )
+
+            [QBHaving:protected] => Array
+                (
+                )
+
+            [QBKeys:protected] => Array
+                (
+                )
+
+            [QBLimit:protected] => 
+            [QBOffset:protected] => 
+            [QBOrderBy] => Array
+                (
+                )
+
+            [QBUnion:protected] => Array
+                (
+                )
+
+            [QBNoEscape] => Array
+                (
+                )
+
+            [QBSet:protected] => Array
+                (
+                )
+
+            [QBWhereGroupStarted:protected] => 
+            [QBWhereGroupCount:protected] => 0
+            [QBIgnore:protected] => 
+            [QBOptions:protected] => 
+            [db:protected] => CodeIgniter\Database\MySQLi\Connection Object
+                (
+                    [DSN:protected] => 
+                    [port:protected] => 3306
+                    [hostname:protected] => 127.0.0.1
+                    [username:protected] => root
+                    [password:protected] => 
+                    [database:protected] => marketplace
+                    [DBDriver] => MySQLi
+                    [subdriver:protected] => 
+                    [DBPrefix:protected] => 
+                    [pConnect:protected] => 
+                    [DBDebug:protected] => 1
+                    [charset:protected] => utf8mb4
+                    [DBCollat:protected] => utf8mb4_general_ci
+                    [swapPre:protected] => 
+                    [encrypt:protected] => 
+                    [compress:protected] => 
+                    [strictOn:protected] => 
+                    [failover:protected] => Array
+                        (
+                        )
+
+                    [lastQuery:protected] => CodeIgniter\Database\Query Object
+                        (
+                            [originalQueryString:protected] => SELECT *
+FROM `category`
+                            [finalQueryString:protected] => SELECT *
+FROM `category`
+                            [binds:protected] => Array
+                                (
+                                )
+
+                            [bindMarker:protected] => ?
+                            [startTime:protected] => 1750331229.1088
+                            [endTime:protected] => 1750331229.1093
+                            [errorCode:protected] => 
+                            [errorString:protected] => 
+                            [db] => CodeIgniter\Database\MySQLi\Connection Object
+ *RECURSION*
+                        )
+
+                    [connID] => mysqli Object
+                        (
+                            [affected_rows] => 3
+                            [client_info] => mysqlnd 8.4.8
+                            [client_version] => 80408
+                            [connect_errno] => 0
+                            [connect_error] => 
+                            [errno] => 0
+                            [error] => 
+                            [error_list] => Array
+                                (
+                                )
+
+                            [field_count] => 2
+                            [host_info] => 127.0.0.1 via TCP/IP
+                            [info] => 
+                            [insert_id] => 0
+                            [server_info] => 10.4.28-MariaDB
+                            [server_version] => 100428
+                            [sqlstate] => 00000
+                            [protocol_version] => 10
+                            [thread_id] => 1013
+                            [warning_count] => 0
+                        )
+
+                    [resultID] => mysqli_result Object
+                        (
+                            [current_field] => 0
+                            [field_count] => 2
+                            [lengths] => 
+                            [num_rows] => 3
+                            [type] => 0
+                        )
+
+                    [protectIdentifiers] => 1
+                    [reservedIdentifiers:protected] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [escapeChar] => `
+                    [likeEscapeStr] =>  ESCAPE '%s' 
+                    [likeEscapeChar] => !
+                    [pregEscapeChar:protected] => Array
+                        (
+                            [1] => `
+                            [0] => `
+                            [3] => `
+                            [2] => `
+                        )
+
+                    [dataCache] => Array
+                        (
+                        )
+
+                    [connectTime:protected] => 1750331229.1078
+                    [connectDuration:protected] => 0.00092792510986328
+                    [pretend:protected] => 
+                    [transEnabled] => 1
+                    [transStrict] => 1
+                    [transDepth:protected] => 0
+                    [transStatus:protected] => 1
+                    [transFailure:protected] => 
+                    [transException:protected] => 
+                    [aliasedTables:protected] => Array
+                        (
+                        )
+
+                    [queryClass:protected] => CodeIgniter\Database\Query
+                    [dateFormat:protected] => Array
+                        (
+                            [date] => Y-m-d
+                            [datetime] => Y-m-d H:i:s
+                            [datetime-ms] => Y-m-d H:i:s.v
+                            [datetime-us] => Y-m-d H:i:s.u
+                            [time] => H:i:s
+                        )
+
+                    [deleteHack] => 1
+                    [mysqli] => mysqli Object
+                        (
+                            [affected_rows] => 3
+                            [client_info] => mysqlnd 8.4.8
+                            [client_version] => 80408
+                            [connect_errno] => 0
+                            [connect_error] => 
+                            [errno] => 0
+                            [error] => 
+                            [error_list] => Array
+                                (
+                                )
+
+                            [field_count] => 2
+                            [host_info] => 127.0.0.1 via TCP/IP
+                            [info] => 
+                            [insert_id] => 0
+                            [server_info] => 10.4.28-MariaDB
+                            [server_version] => 100428
+                            [sqlstate] => 00000
+                            [protocol_version] => 10
+                            [thread_id] => 1013
+                            [warning_count] => 0
+                        )
+
+                    [resultMode] => 0
+                    [numberNative] => 
+                    [foundRows] => 
+                )
+
+            [tableName:protected] => products
+            [randomKeyword:protected] => Array
+                (
+                    [0] => RAND()
+                    [1] => RAND(%d)
+                )
+
+            [countString:protected] => SELECT COUNT(*) AS 
+            [binds:protected] => Array
+                (
+                    [category_id] => Array
+                        (
+                            [0] => 3
+                            [1] => 1
+                        )
+
+                )
+
+            [bindsKeyCount:protected] => Array
+                (
+                )
+
+            [canLimitDeletes:protected] => 1
+            [canLimitWhereUpdates:protected] => 1
+            [supportedIgnoreStatements:protected] => Array
+                (
+                    [update] => IGNORE
+                    [insert] => IGNORE
+                    [delete] => IGNORE
+                )
+
+            [testMode:protected] => 
+            [joinTypes:protected] => Array
+                (
+                    [0] => LEFT
+                    [1] => RIGHT
+                    [2] => OUTER
+                    [3] => INNER
+                    [4] => LEFT OUTER
+                    [5] => RIGHT OUTER
+                )
+
+            [isLiteralStr:protected] => Array
+                (
+                )
+
+            [pregOperators:protected] => Array
+                (
+                )
+
+            [escapeChar:protected] => `
+        )
+
+    [tempData:protected] => Array
+        (
+        )
+
+    [escape:protected] => Array
+        (
+        )
+
+    [builderMethodsNotAvailable:CodeIgniter\Model:private] => Array
+        (
+            [0] => getCompiledInsert
+            [1] => getCompiledSelect
+            [2] => getCompiledUpdate
+        )
+
+)
+
+DEBUG - 2025-06-19 11:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-19 11:07:09 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: product/category]
+in APPPATH/Views/pages/beranda.php on line 94.
+ 1 APPPATH/Views/pages/beranda.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/beranda.php', 94)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/beranda.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('/pages/beranda', [], true)
+ 5 APPPATH/Controllers/Product.php(36): view('/pages/beranda', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Product->getProducts()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-06-19 11:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-19 11:09:12 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: product/category]
+in APPPATH/Views/pages/beranda.php on line 94.
+ 1 APPPATH/Views/pages/beranda.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/beranda.php', 94)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/beranda.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('/pages/beranda', [], true)
+ 5 APPPATH/Controllers/Product.php(34): view('/pages/beranda', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Product->getProducts()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-06-19 11:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-19 11:09:54 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: product/category]
+in APPPATH/Views/pages/beranda.php on line 70.
+ 1 APPPATH/Views/pages/beranda.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/beranda.php', 70)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/beranda.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('/pages/beranda', [], true)
+ 5 APPPATH/Controllers/Product.php(34): view('/pages/beranda', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Product->getProducts()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-06-19 11:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-19 11:10:51 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: product/category]
+in APPPATH/Views/pages/beranda.php on line 94.
+ 1 APPPATH/Views/pages/beranda.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/beranda.php', 94)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/beranda.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('/pages/beranda', [], true)
+ 5 APPPATH/Controllers/Product.php(34): view('/pages/beranda', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Product->getProducts()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-06-19 11:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-19 11:13:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/pages/beranda/#menu.php"
+[Method: GET, Route: product/category]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/pages/beranda/#menu.php')
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('/pages/beranda/#menu', [], true)
+ 3 APPPATH/Controllers/Product.php(34): view('/pages/beranda/#menu', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Product->getProducts()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-06-19 11:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-19 11:16:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/pages/beranda/#menu.php"
+[Method: GET, Route: product/category]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/pages/beranda/#menu.php')
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('/pages/beranda/#menu', [], true)
+ 3 APPPATH/Controllers/Product.php(34): view('/pages/beranda/#menu', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Product->getProducts()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-06-19 11:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-19 11:22:57 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: products]
+in APPPATH/Views/pages/product.php on line 46.
+ 1 APPPATH/Views/pages/product.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/product.php', 46)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/product.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/product', [], true)
+ 5 APPPATH/Controllers/Page.php(18): view('pages/product')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->products()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-06-19 11:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-19 11:24:10 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: products]
+in APPPATH/Views/pages/product.php on line 46.
+ 1 APPPATH/Views/pages/product.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/product.php', 46)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/product.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/product', [], true)
+ 5 APPPATH/Controllers/Page.php(18): view('pages/product')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->products()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-06-19 11:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-19 11:24:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/products.php"
+[Method: GET, Route: products]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/products.php')
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/products', [], true)
+ 3 APPPATH/Controllers/Page.php(18): view('pages/products')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->products()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-06-19 11:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-19 11:28:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "http://localhost:8080/pages/product.php"
+[Method: GET, Route: product]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhost:8080/pages/product.php')
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('http://localhost:8080/pages/product', [], true)
+ 3 APPPATH/Controllers/Product.php(49): view('http://localhost:8080/pages/product', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Product->getProducts()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-06-19 11:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-19 11:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-19 11:50:10 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "href="http:"
+[Method: GET, Route: href=%22http:/localhost:8080/css/product.css%22]
+in SYSTEMPATH/Router/Router.php on line 741.
+ 1 SYSTEMPATH/Router/Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('href="http:/localhost:8080/css/product.css"')
+ 2 SYSTEMPATH/CodeIgniter.php(832): CodeIgniter\Router\Router->handle('href="http:/localhost:8080/css/product.css"')
+ 3 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+CRITICAL - 2025-06-19 11:50:57 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "href="http:"
+[Method: GET, Route: href=%22http:/localhost:8080/css/product.css%22]
+in SYSTEMPATH/Router/Router.php on line 741.
+ 1 SYSTEMPATH/Router/Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('href="http:/localhost:8080/css/product.css"')
+ 2 SYSTEMPATH/CodeIgniter.php(832): CodeIgniter\Router\Router->handle('href="http:/localhost:8080/css/product.css"')
+ 3 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+CRITICAL - 2025-06-19 11:51:52 --> Error: Call to undefined function link_tag()
+[Method: GET, Route: products]
+in APPPATH/Views/pages/product.php on line 8.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 3 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/product', [], true)
+ 4 APPPATH/Controllers/Product.php(25): view('pages/product', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Product->index()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+CRITICAL - 2025-06-19 11:52:00 --> Error: Call to undefined function link_tag()
+[Method: GET, Route: products]
+in APPPATH/Views/pages/product.php on line 8.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 3 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/product', [], true)
+ 4 APPPATH/Controllers/Product.php(25): view('pages/product', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Product->index()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')

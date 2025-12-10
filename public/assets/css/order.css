@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+html, body {
+  height: 100%;
+}
+body {
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+  /* padding: 20px; */
+}
+.order-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  /* max-width: 1100px; */
+  margin: 0 auto;
+  width: 100%;
+  /* background: red; */
+  /* height: 100%; */
+  flex: 1;
+}
+.order-info, .invoice-summary {
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+}
+.order-info {
+  
+  flex: 4;
+}
+.invoice-summary {
+  /* width: 300px; */
+  flex: 2;
+}
+h1 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+.subtitle {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+.order-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 350px;
+  overflow-y: auto;
+}
+.item-card {
+  display: flex;
+  background: #fafafa;
+  padding: 16px;
+  border-radius: 6px;
+  align-items: center;
+  gap: 16px;
+}
+.item-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.item-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.item-text strong {
+  font-size: 1rem;
+}
+.item-text span {
+  font-size: 0.88rem;
+  color: #666;
+}
+.item-meta {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+.item-meta .price {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.invoice-details .row {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+  font-size: 0.92rem;
+}
+
+.invoice-details {
+  gap: 20px; 
+  display: flex;
+  flex-direction: column;
+}
+
+.invoice-details hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 12px 0;
+}
+.invoice-details .total {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.note-box {
+  margin-top: 16px;
+  border-left: 3px solid #ccc;
+  padding-left: 12px;
+}
+.note-box strong {
+  display: block;
+  margin-bottom: 6px;
+}
+.note-box p {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.btn-add {
+  background: #ce1213;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.modal-body {
+  gap: 30px;
+}
+
+.payment-content {
+  width: 100%;
+  height: 400px;
+}
+
+.qris {
+  width: 100%;
+  height: 100%;
+}
+
+.mandiri-content {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 350px;
+}

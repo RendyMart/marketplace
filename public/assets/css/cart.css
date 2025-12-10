@@ -1,0 +1,142 @@
+.cart-container {
+  display: flex;
+  gap: 32px;
+  font-family: Arial, sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Cart items list */
+.cart-items {
+  flex: 2;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background: white;
+  height: 500px;
+  overflow-y: auto;
+}
+
+.cart-items label {
+  font-weight: bold;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-info h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.price {
+  margin: 4px 0 0;
+  color: #333;
+  font-weight: bold;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.quantity button {
+  width: 28px;
+  height: 28px;
+  border: none;
+  background: #fafafa;
+  cursor: pointer;
+}
+
+.quantity input {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 4px;
+  height: 28px;
+}
+
+.remove {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #888;
+  cursor: pointer;
+}
+
+/* Price details box */
+.price-details-container {
+  flex: 1;
+  /* background: #f9f9f9; */
+  gap: 20px;
+  padding: 24px;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.price-details {
+  /* flex: 1; */
+  background: #f9f9f9;
+  padding: 24px;
+  border-radius: 8px;
+  height: fit-content;
+}
+.btn-add {
+    background: #ce1213;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.price-details h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+.detail-row.total {
+  border-top: 1px solid #ddd;
+  margin-top: 12px;
+  padding-top: 12px;
+}
+
+.right {
+  text-align: right;
+}
+
+.discount {
+  color: #E53935;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 16px;
+}

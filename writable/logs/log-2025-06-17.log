@@ -1,0 +1,140 @@
+CRITICAL - 2025-06-17 10:27:01 --> ErrorException: Undefined variable $test
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 APPPATH/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $test', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Controllers/Home.php', 11)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+CRITICAL - 2025-06-17 10:27:27 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in /Users/fdhlakbrrr/workspaces/Development/marketplace/app/Controllers/Home.php on line 11
+[Method: GET, Route: /]
+in SYSTEMPATH/Common.php on line 1161.
+ 1 APPPATH/Controllers/Home.php(11): view('pages/beranda', 'hello')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+CRITICAL - 2025-06-17 10:51:43 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+CRITICAL - 2025-06-17 10:51:43 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+CRITICAL - 2025-06-17 10:57:20 --> Error: Call to undefined function App\Controllers\write()
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+CRITICAL - 2025-06-17 11:08:11 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: /]
+in APPPATH/Views/layout/template.php on line 280.
+ 1 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 2 SYSTEMPATH/View/View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 3 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/beranda', [], true)
+ 4 APPPATH/Controllers/Home.php(10): view('pages/beranda')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+CRITICAL - 2025-06-17 11:15:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "../layout/test.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout/test.php')
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('../layout/test.php', [], true)
+ 3 APPPATH/Views/pages/beranda.php(11): view('../layout/test.php')
+ 4 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/beranda.php')
+ 5 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 6 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/beranda', [], true)
+ 7 APPPATH/Controllers/Home.php(10): view('pages/beranda')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+CRITICAL - 2025-06-17 11:15:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "../layout/test.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout/test.php')
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('../layout/test', [], true)
+ 3 APPPATH/Views/pages/beranda.php(11): view('../layout/test')
+ 4 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/beranda.php')
+ 5 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 6 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/beranda', [], true)
+ 7 APPPATH/Controllers/Home.php(10): view('pages/beranda')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+CRITICAL - 2025-06-17 11:15:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "../layout/test.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout/test.php')
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('../layout/test', [], true)
+ 3 APPPATH/Views/pages/beranda.php(11): view('../layout/test')
+ 4 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/beranda.php')
+ 5 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 6 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/beranda', [], true)
+ 7 APPPATH/Controllers/Home.php(10): view('pages/beranda')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+CRITICAL - 2025-06-17 11:15:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "../layout/test.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout/test.php')
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('../layout/test', [], true)
+ 3 APPPATH/Views/pages/beranda.php(11): view('../layout/test')
+ 4 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/beranda.php')
+ 5 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 6 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/beranda', [], true)
+ 7 APPPATH/Controllers/Home.php(10): view('pages/beranda')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')

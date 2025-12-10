@@ -1,0 +1,1369 @@
+DEBUG - 2025-06-21 22:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:27:07 --> Array
+(
+    [id] => 26
+    [quantity] => 3
+    [cart_price] => 75000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:27:12 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 3
+    [price] => 75000
+)
+
+CRITICAL - 2025-06-21 22:27:12 --> ErrorException: Undefined array key "cart_price"
+[Method: PUT, Route: keranjang/26]
+in APPPATH/Helpers/cart_helper.php on line 13.
+ 1 APPPATH/Helpers/cart_helper.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cart_price"', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Helpers/cart_helper.php', 13)
+ 2 APPPATH/Controllers/Cart.php(80): countCartTotalPrice([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cart->update('26')
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-06-21 22:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:28:28 --> Array
+(
+    [id] => 26
+    [quantity] => 2
+    [price] => 50000
+    [name] => Piring plastik 1
+)
+
+CRITICAL - 2025-06-21 22:28:28 --> ErrorException: Undefined array key "cart_price"
+[Method: GET, Route: keranjang]
+in APPPATH/Helpers/cart_helper.php on line 13.
+ 1 APPPATH/Helpers/cart_helper.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cart_price"', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Helpers/cart_helper.php', 13)
+ 2 APPPATH/Controllers/Page.php(14): countCartTotalPrice([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->keran()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-06-21 22:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:28:42 --> Array
+(
+    [id] => 26
+    [quantity] => 2
+    [price] => 50000
+    [name] => Piring plastik 1
+)
+
+CRITICAL - 2025-06-21 22:28:42 --> ErrorException: Undefined array key "cart_price"
+[Method: GET, Route: keranjang]
+in APPPATH/Views/pages/keranjang.php on line 30.
+ 1 APPPATH/Views/pages/keranjang.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cart_price"', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/keranjang.php', 30)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/keranjang.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/keranjang', [], true)
+ 5 APPPATH/Controllers/Page.php(21): view('pages/keranjang', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->keran()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-06-21 22:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:29:10 --> Array
+(
+    [id] => 26
+    [quantity] => 2
+    [price] => 50000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:29:12 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 2
+    [price] => 50000
+)
+
+DEBUG - 2025-06-21 22:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:29:26 --> Array
+(
+    [id] => 26
+    [quantity] => 1
+    [price] => 25000
+    [name] => Piring plastik 1
+)
+
+DEBUG - 2025-06-21 22:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:29:48 --> Array
+(
+    [id] => 26
+    [quantity] => 36
+    [price] => 900000
+    [name] => Piring plastik 1
+)
+
+DEBUG - 2025-06-21 22:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:29:52 --> Array
+(
+    [id] => 26
+    [quantity] => 36
+    [price] => 900000
+    [name] => Piring plastik 1
+)
+
+DEBUG - 2025-06-21 22:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:36:00 --> Array
+(
+    [id] => 26
+    [quantity] => 36
+    [price] => 900000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:36:03 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 36
+    [price] => 900000
+)
+
+DEBUG - 2025-06-21 22:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:36:14 --> Array
+(
+    [id] => 26
+    [quantity] => 35
+    [price] => 875000
+    [name] => Piring plastik 1
+)
+
+DEBUG - 2025-06-21 22:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:39:28 --> Array
+(
+    [id] => 26
+    [quantity] => 35
+    [price] => 875000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:39:31 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 35
+    [price] => 875000
+)
+
+INFO - 2025-06-21 22:39:32 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 34
+    [price] => 850000
+)
+
+INFO - 2025-06-21 22:39:34 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 33
+    [price] => 825000
+)
+
+INFO - 2025-06-21 22:39:34 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 32
+    [price] => 800000
+)
+
+DEBUG - 2025-06-21 22:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:40:00 --> Array
+(
+    [id] => 26
+    [quantity] => 31
+    [price] => 775000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:40:03 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 31
+    [price] => 775000
+)
+
+INFO - 2025-06-21 22:40:05 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 30
+    [price] => 750000
+)
+
+DEBUG - 2025-06-21 22:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:40:51 --> Array
+(
+    [id] => 26
+    [quantity] => 29
+    [price] => 725000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:40:53 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 29
+    [price] => 725000
+)
+
+INFO - 2025-06-21 22:40:53 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 28
+    [price] => 700000
+)
+
+INFO - 2025-06-21 22:40:54 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 27
+    [price] => 675000
+)
+
+DEBUG - 2025-06-21 22:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:41:10 --> Array
+(
+    [id] => 26
+    [quantity] => 26
+    [price] => 650000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:41:11 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 26
+    [price] => 650000
+)
+
+INFO - 2025-06-21 22:41:12 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 25
+    [price] => 625000
+)
+
+DEBUG - 2025-06-21 22:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:41:15 --> Array
+(
+    [id] => 26
+    [quantity] => 24
+    [price] => 600000
+    [name] => Piring plastik 1
+)
+
+DEBUG - 2025-06-21 22:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:41:33 --> Array
+(
+    [id] => 26
+    [quantity] => 24
+    [price] => 600000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:41:35 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 24
+    [price] => 600000
+)
+
+DEBUG - 2025-06-21 22:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:42:50 --> Array
+(
+    [id] => 26
+    [quantity] => 23
+    [price] => 575000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:42:52 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 23
+    [price] => 575000
+)
+
+DEBUG - 2025-06-21 22:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:43:42 --> Array
+(
+    [id] => 26
+    [quantity] => 22
+    [price] => 550000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:43:43 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 22
+    [price] => 550000
+)
+
+DEBUG - 2025-06-21 22:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:43:52 --> Array
+(
+    [id] => 26
+    [quantity] => 21
+    [price] => 525000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:43:55 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 21
+    [price] => 525000
+)
+
+DEBUG - 2025-06-21 22:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:44:29 --> Array
+(
+    [id] => 26
+    [quantity] => 20
+    [price] => 500000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:44:31 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 20
+    [price] => 500000
+)
+
+DEBUG - 2025-06-21 22:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:44:42 --> Array
+(
+    [id] => 26
+    [quantity] => 19
+    [price] => 475000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:44:44 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 19
+    [price] => 475000
+)
+
+INFO - 2025-06-21 22:44:46 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 18
+    [price] => 450000
+)
+
+DEBUG - 2025-06-21 22:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:44:53 --> Array
+(
+    [id] => 26
+    [quantity] => 17
+    [price] => 425000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:44:55 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 17
+    [price] => 425000
+)
+
+INFO - 2025-06-21 22:44:57 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 16
+    [price] => 400000
+)
+
+INFO - 2025-06-21 22:44:58 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 15
+    [price] => 375000
+)
+
+INFO - 2025-06-21 22:44:59 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 14
+    [price] => 350000
+)
+
+DEBUG - 2025-06-21 22:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:45:02 --> Array
+(
+    [id] => 26
+    [quantity] => 13
+    [price] => 325000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:45:05 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 13
+    [price] => 325000
+)
+
+INFO - 2025-06-21 22:45:05 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 12
+    [price] => 350000
+)
+
+INFO - 2025-06-21 22:45:06 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 11
+    [price] => 375000
+)
+
+DEBUG - 2025-06-21 22:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:45:27 --> Array
+(
+    [id] => 26
+    [quantity] => 10
+    [price] => 400000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:45:28 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 10
+    [price] => 400000
+)
+
+INFO - 2025-06-21 22:45:55 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 9
+    [price] => 425000
+)
+
+INFO - 2025-06-21 22:45:56 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 8
+    [price] => 450000
+)
+
+DEBUG - 2025-06-21 22:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:46:03 --> Array
+(
+    [id] => 26
+    [quantity] => 7
+    [price] => 475000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:46:05 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 7
+    [price] => 475000
+)
+
+INFO - 2025-06-21 22:46:06 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 8
+    [price] => 500000
+)
+
+INFO - 2025-06-21 22:46:06 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 9
+    [price] => 525000
+)
+
+INFO - 2025-06-21 22:46:06 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 10
+    [price] => 550000
+)
+
+DEBUG - 2025-06-21 22:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:46:40 --> Array
+(
+    [id] => 26
+    [quantity] => 11
+    [price] => 575000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:46:43 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 11
+    [price] => 575000
+)
+
+INFO - 2025-06-21 22:46:45 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 10
+    [price] => 550000
+)
+
+INFO - 2025-06-21 22:46:45 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 9
+    [price] => 525000
+)
+
+DEBUG - 2025-06-21 22:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:46:50 --> Array
+(
+    [id] => 26
+    [quantity] => 8
+    [price] => 500000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:46:52 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 8
+    [price] => 500000
+)
+
+INFO - 2025-06-21 22:47:04 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 7
+    [price] => 475000
+)
+
+INFO - 2025-06-21 22:47:04 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 6
+    [price] => 450000
+)
+
+INFO - 2025-06-21 22:47:05 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 5
+    [price] => 425000
+)
+
+INFO - 2025-06-21 22:47:05 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 4
+    [price] => 400000
+)
+
+INFO - 2025-06-21 22:47:05 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 3
+    [price] => 375000
+)
+
+INFO - 2025-06-21 22:47:06 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 2
+    [price] => 350000
+)
+
+INFO - 2025-06-21 22:47:07 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 1
+    [price] => 325000
+)
+
+INFO - 2025-06-21 22:47:08 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 2
+    [price] => 350000
+)
+
+INFO - 2025-06-21 22:47:09 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 1
+    [price] => 325000
+)
+
+INFO - 2025-06-21 22:47:09 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 2
+    [price] => 350000
+)
+
+INFO - 2025-06-21 22:47:09 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 3
+    [price] => 375000
+)
+
+INFO - 2025-06-21 22:47:09 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 4
+    [price] => 400000
+)
+
+INFO - 2025-06-21 22:47:10 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 5
+    [price] => 425000
+)
+
+INFO - 2025-06-21 22:47:10 --> Array
+(
+    [id] => 26
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 6
+    [price] => 450000
+)
+
+DEBUG - 2025-06-21 22:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:47:20 --> Array
+(
+    [id] => 26
+    [quantity] => 7
+    [price] => 475000
+    [name] => Piring plastik 1
+)
+
+DEBUG - 2025-06-21 22:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:47:41 --> Array
+(
+    [id] => 27
+    [quantity] => 7
+    [price] => 210000
+    [name] => Sapu ijuk 1
+)
+
+INFO - 2025-06-21 22:47:53 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 7
+    [price] => 210000
+)
+
+DEBUG - 2025-06-21 22:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:48:01 --> Array
+(
+    [id] => 27
+    [quantity] => 6
+    [price] => 180000
+    [name] => Sapu ijuk 1
+)
+
+INFO - 2025-06-21 22:48:04 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 6
+    [price] => 180000
+)
+
+DEBUG - 2025-06-21 22:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:48:55 --> Array
+(
+    [id] => 27
+    [quantity] => 5
+    [price] => 150000
+    [name] => Sapu ijuk 1
+)
+
+INFO - 2025-06-21 22:48:57 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 4
+    [price] => 120000
+)
+
+INFO - 2025-06-21 22:49:00 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 3
+    [price] => 90000
+)
+
+INFO - 2025-06-21 22:49:01 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 2
+    [price] => 60000
+)
+
+INFO - 2025-06-21 22:49:03 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 3
+    [price] => 90000
+)
+
+INFO - 2025-06-21 22:49:04 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 2
+    [price] => 60000
+)
+
+INFO - 2025-06-21 22:49:06 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 3
+    [price] => 90000
+)
+
+INFO - 2025-06-21 22:49:06 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 4
+    [price] => 120000
+)
+
+INFO - 2025-06-21 22:49:06 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 5
+    [price] => 150000
+)
+
+INFO - 2025-06-21 22:49:06 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 6
+    [price] => 180000
+)
+
+INFO - 2025-06-21 22:49:06 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 7
+    [price] => 210000
+)
+
+INFO - 2025-06-21 22:49:07 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 8
+    [price] => 240000
+)
+
+INFO - 2025-06-21 22:49:07 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 7
+    [price] => 210000
+)
+
+INFO - 2025-06-21 22:49:07 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 6
+    [price] => 180000
+)
+
+INFO - 2025-06-21 22:49:11 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 7
+    [price] => 210000
+)
+
+INFO - 2025-06-21 22:49:11 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 8
+    [price] => 240000
+)
+
+INFO - 2025-06-21 22:49:11 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 9
+    [price] => 270000
+)
+
+INFO - 2025-06-21 22:49:11 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 10
+    [price] => 300000
+)
+
+INFO - 2025-06-21 22:49:12 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 9
+    [price] => 270000
+)
+
+INFO - 2025-06-21 22:49:12 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 8
+    [price] => 240000
+)
+
+INFO - 2025-06-21 22:49:12 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 7
+    [price] => 210000
+)
+
+INFO - 2025-06-21 22:49:13 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 8
+    [price] => 240000
+)
+
+INFO - 2025-06-21 22:49:25 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 9
+    [price] => 270000
+)
+
+INFO - 2025-06-21 22:49:26 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 10
+    [price] => 300000
+)
+
+INFO - 2025-06-21 22:49:27 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 9
+    [price] => 270000
+)
+
+INFO - 2025-06-21 22:49:28 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 10
+    [price] => 300000
+)
+
+INFO - 2025-06-21 22:49:29 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 9
+    [price] => 270000
+)
+
+INFO - 2025-06-21 22:49:32 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 8
+    [price] => 240000
+)
+
+INFO - 2025-06-21 22:49:33 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 9
+    [price] => 270000
+)
+
+INFO - 2025-06-21 22:49:34 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 8
+    [price] => 240000
+)
+
+INFO - 2025-06-21 22:49:35 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 9
+    [price] => 270000
+)
+
+INFO - 2025-06-21 22:49:36 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 10
+    [price] => 300000
+)
+
+INFO - 2025-06-21 22:49:37 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 9
+    [price] => 270000
+)
+
+INFO - 2025-06-21 22:49:37 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 8
+    [price] => 240000
+)
+
+INFO - 2025-06-21 22:49:37 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 7
+    [price] => 210000
+)
+
+INFO - 2025-06-21 22:49:37 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 6
+    [price] => 180000
+)
+
+INFO - 2025-06-21 22:49:38 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 7
+    [price] => 210000
+)
+
+INFO - 2025-06-21 22:49:38 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 8
+    [price] => 240000
+)
+
+INFO - 2025-06-21 22:49:40 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 7
+    [price] => 210000
+)
+
+DEBUG - 2025-06-21 22:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-21 22:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-21 22:49:50 --> Array
+(
+    [id] => 28
+    [quantity] => 1
+    [price] => 25000
+    [name] => Piring plastik 1
+)
+
+INFO - 2025-06-21 22:49:50 --> Array
+(
+    [id] => 27
+    [quantity] => 7
+    [price] => 210000
+    [name] => Sapu ijuk 1
+)
+
+INFO - 2025-06-21 22:49:56 --> Array
+(
+    [id] => 28
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 2
+    [price] => 50000
+)
+
+INFO - 2025-06-21 22:49:58 --> Array
+(
+    [id] => 28
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 3
+    [price] => 75000
+)
+
+INFO - 2025-06-21 22:50:00 --> Array
+(
+    [id] => 28
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 4
+    [price] => 100000
+)
+
+INFO - 2025-06-21 22:50:02 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 6
+    [price] => 180000
+)
+
+INFO - 2025-06-21 22:50:03 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 7
+    [price] => 210000
+)
+
+INFO - 2025-06-21 22:50:05 --> Array
+(
+    [id] => 28
+    [product_id] => 1
+    [user_id] => 7
+    [qty] => 5
+    [price] => 125000
+)
+
+INFO - 2025-06-21 22:50:08 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 6
+    [price] => 180000
+)
+
+INFO - 2025-06-21 22:50:09 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 5
+    [price] => 150000
+)
+
+INFO - 2025-06-21 22:50:09 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 4
+    [price] => 120000
+)
+
+INFO - 2025-06-21 22:50:10 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 3
+    [price] => 90000
+)
+
+INFO - 2025-06-21 22:50:11 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 2
+    [price] => 60000
+)
+
+INFO - 2025-06-21 22:50:15 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 1
+    [price] => 30000
+)
+
+INFO - 2025-06-21 22:50:15 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => 0
+    [price] => 0
+)
+
+INFO - 2025-06-21 22:50:16 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => -1
+    [price] => -30000
+)
+
+INFO - 2025-06-21 22:50:16 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => -2
+    [price] => -60000
+)
+
+INFO - 2025-06-21 22:50:17 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => -3
+    [price] => -90000
+)
+
+INFO - 2025-06-21 22:50:17 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => -4
+    [price] => -120000
+)
+
+INFO - 2025-06-21 22:50:17 --> Array
+(
+    [id] => 27
+    [product_id] => 3
+    [user_id] => 7
+    [qty] => -5
+    [price] => -150000
+)
+

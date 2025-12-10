@@ -1,0 +1,119 @@
+DEBUG - 2025-07-15 12:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 12:11:04 --> Array
+(
+)
+
+DEBUG - 2025-07-15 12:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 12:11:56 --> Array
+(
+)
+
+DEBUG - 2025-07-15 12:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 12:12:55 --> Array
+(
+)
+
+DEBUG - 2025-07-15 12:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 12:15:51 --> Array
+(
+    [0] => Array
+        (
+            [id] => 70
+            [order_code] => 1d01b079-089b-45e1-98b6-e5626c3cc37a
+            [total_price] => 81990
+            [status] => pending
+            [products] => [{"id":31,"quantity":1,"price":21000,"name":"Pengki Sampah Plastik","description":"per 1 biji adalah 1 buah ya","image":"1752581515_31e15b38d981a4ffe404.jpg"},{"id":32,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"alumunium ini sangat cocok untuk masak","image":"1752581573_6c848cf2ad72be8b47a5.jpg"}]
+        )
+
+)
+
+DEBUG - 2025-07-15 12:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 12:16:31 --> Array
+(
+    [0] => Array
+        (
+            [id] => 70
+            [order_code] => 1d01b079-089b-45e1-98b6-e5626c3cc37a
+            [total_price] => 81990
+            [status] => paid
+            [products] => [{"id":31,"quantity":1,"price":21000,"name":"Pengki Sampah Plastik","description":"per 1 biji adalah 1 buah ya","image":"1752581515_31e15b38d981a4ffe404.jpg"},{"id":32,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"alumunium ini sangat cocok untuk masak","image":"1752581573_6c848cf2ad72be8b47a5.jpg"}]
+        )
+
+)
+
+DEBUG - 2025-07-15 12:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-15 12:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 12:16:56 --> Array
+(
+    [0] => Array
+        (
+            [id] => 70
+            [order_code] => 1d01b079-089b-45e1-98b6-e5626c3cc37a
+            [total_price] => 81990
+            [status] => paid
+            [payment_image] => 1752581790_253bc42a265358ea5c70.jpg
+            [address] => poncab
+            [username] => rendy
+            [products] => [{"id":31,"quantity":1,"price":21000,"name":"Pengki Sampah Plastik","description":"per 1 biji adalah 1 buah ya"},{"id":32,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"alumunium ini sangat cocok untuk masak"}]
+        )
+
+)
+
+DEBUG - 2025-07-15 12:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 12:17:02 --> Array
+(
+    [0] => Array
+        (
+            [id] => 70
+            [order_code] => 1d01b079-089b-45e1-98b6-e5626c3cc37a
+            [total_price] => 81990
+            [status] => approved
+            [payment_image] => 1752581790_253bc42a265358ea5c70.jpg
+            [address] => poncab
+            [username] => rendy
+            [products] => [{"id":31,"quantity":1,"price":21000,"name":"Pengki Sampah Plastik","description":"per 1 biji adalah 1 buah ya"},{"id":32,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"alumunium ini sangat cocok untuk masak"}]
+        )
+
+)
+
+DEBUG - 2025-07-15 12:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-15 12:17:14 --> Array
+(
+    [0] => Array
+        (
+            [id] => 70
+            [order_code] => 1d01b079-089b-45e1-98b6-e5626c3cc37a
+            [total_price] => 81990
+            [status] => approved
+            [payment_image] => 1752581790_253bc42a265358ea5c70.jpg
+            [address] => poncab
+            [username] => rendy
+            [products] => [{"id":32,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"alumunium ini sangat cocok untuk masak"}]
+        )
+
+)
+

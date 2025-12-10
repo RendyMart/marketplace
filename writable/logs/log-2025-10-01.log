@@ -1,0 +1,95 @@
+DEBUG - 2025-10-01 16:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-01 16:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-10-01 16:14:41 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [payment_image] => 1753200307_ba87b974abf278cc1b4a.jpeg
+            [address] => sayah adalah
+            [username] => rendy
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs"}]
+        )
+
+    [3] => Array
+        (
+            [id] => 77
+            [order_code] => 5694f3f2-c1b4-4f58-bfa3-1116c69d110e
+            [total_price] => 65000
+            [status] => paid
+            [payment_image] => 1753271394_5c86e9948ad9ef627092.jpg
+            [address] => JL. Pondok Cabe 02 rt 06 rw 06 pondok cabe udik
+            [username] => rendy
+            [products] => [{"id":48,"quantity":1,"price":9000,"name":"Spatula Slotted Turner Lubang","description":"Matrial sendok terbuat dari bahan foodgrade a berkualitas. Handle yang nyaman dan tebal, kuat serta tahan panas. Ukuran panjang 32cm, Lebar 8cm (Warna Random)"},{"id":47,"quantity":1,"price":34000,"name":"Wajan Penggorengan Anti Lengket","description":"Wajan ini terbuat dari bahan premium dan dilapisi Marble Coating sehingga sangat awet dan anti lengket. Dapat digunakan untuk goreng, rebus, dll. Ukuran 32cm"},{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"}]
+        )
+
+    [4] => Array
+        (
+            [id] => 78
+            [order_code] => 26db24e3-4397-456c-8ae3-4c558e10f656
+            [total_price] => 31948
+            [status] => approved
+            [payment_image] => 1753425795_9992b0134ea877aed8b0.jpeg
+            [address] => jl kayu putih rt 06 rw 01 cibinong
+
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+)
+
+INFO - 2025-10-01 16:14:41 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+

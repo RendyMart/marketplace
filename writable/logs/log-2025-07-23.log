@@ -1,0 +1,919 @@
+DEBUG - 2025-07-23 10:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 10:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 10:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 10:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 10:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 10:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 10:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 10:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 10:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 10:28:02 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [payment_image] => 1753200307_ba87b974abf278cc1b4a.jpeg
+            [address] => sayah adalah
+            [username] => rendy
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs"}]
+        )
+
+)
+
+INFO - 2025-07-23 10:28:02 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-23 11:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 11:34:20 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [payment_image] => 1753200307_ba87b974abf278cc1b4a.jpeg
+            [address] => sayah adalah
+            [username] => rendy
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs"}]
+        )
+
+)
+
+INFO - 2025-07-23 11:34:20 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-23 11:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 11:35:32 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [payment_image] => 1753200307_ba87b974abf278cc1b4a.jpeg
+            [address] => sayah adalah
+            [username] => rendy
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs"}]
+        )
+
+)
+
+INFO - 2025-07-23 11:35:32 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-23 11:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 11:37:10 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [payment_image] => 1753200307_ba87b974abf278cc1b4a.jpeg
+            [address] => sayah adalah
+            [username] => rendy
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs"}]
+        )
+
+)
+
+INFO - 2025-07-23 11:37:10 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-23 11:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 11:38:18 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [payment_image] => 1753200307_ba87b974abf278cc1b4a.jpeg
+            [address] => sayah adalah
+            [username] => rendy
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs"}]
+        )
+
+)
+
+INFO - 2025-07-23 11:38:18 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-23 11:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 11:39:08 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [payment_image] => 1753200307_ba87b974abf278cc1b4a.jpeg
+            [address] => sayah adalah
+            [username] => rendy
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs"}]
+        )
+
+)
+
+INFO - 2025-07-23 11:39:08 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-23 11:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 11:40:05 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [payment_image] => 1753200307_ba87b974abf278cc1b4a.jpeg
+            [address] => sayah adalah
+            [username] => rendy
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs"}]
+        )
+
+)
+
+INFO - 2025-07-23 11:40:05 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-23 11:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 11:40:55 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [payment_image] => 1753200307_ba87b974abf278cc1b4a.jpeg
+            [address] => sayah adalah
+            [username] => rendy
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs"}]
+        )
+
+)
+
+INFO - 2025-07-23 11:40:55 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-23 11:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 11:41:58 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [payment_image] => 1753200307_ba87b974abf278cc1b4a.jpeg
+            [address] => sayah adalah
+            [username] => rendy
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs"}]
+        )
+
+)
+
+INFO - 2025-07-23 11:41:58 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-23 11:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 11:42:39 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [payment_image] => 1753200307_ba87b974abf278cc1b4a.jpeg
+            [address] => sayah adalah
+            [username] => rendy
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs"}]
+        )
+
+)
+
+INFO - 2025-07-23 11:42:39 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-23 11:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 11:45:54 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [payment_image] => 1753200307_ba87b974abf278cc1b4a.jpeg
+            [address] => sayah adalah
+            [username] => rendy
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs"}]
+        )
+
+)
+
+INFO - 2025-07-23 11:45:54 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-23 11:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 11:47:14 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [payment_image] => 1753200307_ba87b974abf278cc1b4a.jpeg
+            [address] => sayah adalah
+            [username] => rendy
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs"}]
+        )
+
+)
+
+INFO - 2025-07-23 11:47:14 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-23 11:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:48:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 11:48:55 --> Array
+(
+    [0] => Array
+        (
+            [id] => 77
+            [order_code] => 5694f3f2-c1b4-4f58-bfa3-1116c69d110e
+            [total_price] => 65000
+            [status] => pending
+            [products] => [{"id":48,"quantity":1,"price":9000,"name":"Spatula Slotted Turner Lubang","description":"Matrial sendok terbuat dari bahan foodgrade a berkualitas. Handle yang nyaman dan tebal, kuat serta tahan panas. Ukuran panjang 32cm, Lebar 8cm (Warna Random)","image":"1753270748_0ac3924218ad966aacff.jpg"},{"id":47,"quantity":1,"price":34000,"name":"Wajan Penggorengan Anti Lengket","description":"Wajan ini terbuat dari bahan premium dan dilapisi Marble Coating sehingga sangat awet dan anti lengket. Dapat digunakan untuk goreng, rebus, dll. Ukuran 32cm","image":"1753270697_e0c43399705c57d11646.jpg"},{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm","image":"1753200086_cdb14e67f1277973ceb5.jpg"}]
+        )
+
+)
+
+DEBUG - 2025-07-23 11:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 11:49:54 --> Array
+(
+    [0] => Array
+        (
+            [id] => 77
+            [order_code] => 5694f3f2-c1b4-4f58-bfa3-1116c69d110e
+            [total_price] => 65000
+            [status] => paid
+            [products] => [{"id":48,"quantity":1,"price":9000,"name":"Spatula Slotted Turner Lubang","description":"Matrial sendok terbuat dari bahan foodgrade a berkualitas. Handle yang nyaman dan tebal, kuat serta tahan panas. Ukuran panjang 32cm, Lebar 8cm (Warna Random)","image":"1753270748_0ac3924218ad966aacff.jpg"},{"id":47,"quantity":1,"price":34000,"name":"Wajan Penggorengan Anti Lengket","description":"Wajan ini terbuat dari bahan premium dan dilapisi Marble Coating sehingga sangat awet dan anti lengket. Dapat digunakan untuk goreng, rebus, dll. Ukuran 32cm","image":"1753270697_e0c43399705c57d11646.jpg"},{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm","image":"1753200086_cdb14e67f1277973ceb5.jpg"}]
+        )
+
+)
+
+DEBUG - 2025-07-23 11:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-23 11:50:18 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [payment_image] => 1753200307_ba87b974abf278cc1b4a.jpeg
+            [address] => sayah adalah
+            [username] => rendy
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs"}]
+        )
+
+    [3] => Array
+        (
+            [id] => 77
+            [order_code] => 5694f3f2-c1b4-4f58-bfa3-1116c69d110e
+            [total_price] => 65000
+            [status] => paid
+            [payment_image] => 1753271394_5c86e9948ad9ef627092.jpg
+            [address] => JL. Pondok Cabe 02 rt 06 rw 06 pondok cabe udik
+            [username] => rendy
+            [products] => [{"id":48,"quantity":1,"price":9000,"name":"Spatula Slotted Turner Lubang","description":"Matrial sendok terbuat dari bahan foodgrade a berkualitas. Handle yang nyaman dan tebal, kuat serta tahan panas. Ukuran panjang 32cm, Lebar 8cm (Warna Random)"},{"id":47,"quantity":1,"price":34000,"name":"Wajan Penggorengan Anti Lengket","description":"Wajan ini terbuat dari bahan premium dan dilapisi Marble Coating sehingga sangat awet dan anti lengket. Dapat digunakan untuk goreng, rebus, dll. Ukuran 32cm"},{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"}]
+        )
+
+)
+
+INFO - 2025-07-23 11:50:18 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-23 11:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 11:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

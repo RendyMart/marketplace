@@ -1,0 +1,1092 @@
+DEBUG - 2025-07-05 13:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:13:44 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"asddasasdsdds"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:13:44 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:14:08 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:14:08 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:14:59 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:14:59 --> ErrorException: Undefined array key "order_code"
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 9.
+ 1 APPPATH/Views/pages/order.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_code"', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 9)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:15:06 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:15:06 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:15:33 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:15:33 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:15:33 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:15:33 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:16:07 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:16:07 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:16:07 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:16:07 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:16:54 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:16:54 --> ErrorException: Array to string conversion
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:17:12 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:17:12 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 12.
+ 1 APPPATH/Views/pages/order.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 12)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:17:25 --> Array
+(
+)
+
+CRITICAL - 2025-07-05 13:17:25 --> ErrorException: Undefined array key 0
+[Method: GET, Route: order/19]
+in APPPATH/Controllers/Page.php on line 57.
+ 1 APPPATH/Controllers/Page.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Controllers/Page.php', 57)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('19')
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:17:28 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:17:28 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 12.
+ 1 APPPATH/Views/pages/order.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 12)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:17:38 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:17:39 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 40.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 3 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 4 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:17:55 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:17:55 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 40.
+ 1 SYSTEMPATH/View/View.php(224): include()
+ 2 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 3 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 4 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:18:32 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+DEBUG - 2025-07-05 13:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:19:01 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:19:01 --> ErrorException: Undefined array key 0
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:19:09 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:19:09 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:19:32 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:19:32 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:19:54 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+DEBUG - 2025-07-05 13:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:20:22 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+DEBUG - 2025-07-05 13:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:20:47 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+DEBUG - 2025-07-05 13:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:21:07 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:21:07 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:22:00 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:22:00 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:22:41 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:22:41 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:22:42 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:22:42 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:22:42 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:22:42 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:22:57 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:22:57 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:23:00 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:23:00 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:23:09 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:23:09 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:23:11 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:23:11 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:23:19 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:23:19 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:23:27 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:23:27 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:23:34 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:23:34 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:23:35 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:23:35 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:23:52 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:23:52 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:24:25 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds""image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+CRITICAL - 2025-07-05 13:24:25 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: order/29]
+in APPPATH/Views/pages/order.php on line 11.
+ 1 APPPATH/Views/pages/order.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php', 11)
+ 2 SYSTEMPATH/View/View.php(224): include('/Users/fdhlakbrrr/workspaces/Development/marketplace/app/Views/pages/order.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('pages/order', [], true)
+ 5 APPPATH/Controllers/Page.php(57): view('pages/order', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Page->order('29')
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/fdhlakbrrr/workspaces/Development/marketplace/public/index.php')
+DEBUG - 2025-07-05 13:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:25:01 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds","image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+DEBUG - 2025-07-05 13:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:25:29 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [payment_image] => 1751720421_56da2c36ba6615624e81.png
+            [address] => Parung Bogor
+            [username] => buyer1
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds"}]
+        )
+
+)
+
+DEBUG - 2025-07-05 13:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:26:09 --> Array
+(
+    [0] => Array
+        (
+            [id] => 30
+            [order_code] => 327f702a-d278-40fd-b0cd-97cd038af713
+            [total_price] => 123213231
+            [status] => pending
+            [products] => [{"id":12,"quantity":1,"price":123213231,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds","image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+DEBUG - 2025-07-05 13:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:26:23 --> Array
+(
+    [0] => Array
+        (
+            [id] => 30
+            [order_code] => 327f702a-d278-40fd-b0cd-97cd038af713
+            [total_price] => 123213231
+            [status] => paid
+            [products] => [{"id":12,"quantity":1,"price":123213231,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds","image":"1750915065_0fe39dfe3afbe1b3f25c.png"}]
+        )
+
+)
+
+DEBUG - 2025-07-05 13:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-05 13:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-05 13:27:06 --> Array
+(
+    [0] => Array
+        (
+            [id] => 29
+            [order_code] => f8811005-a89d-4a89-82b2-40d6fbd5aa50
+            [total_price] => 369639693
+            [status] => paid
+            [payment_image] => 1751720421_56da2c36ba6615624e81.png
+            [address] => Parung Bogor
+            [username] => buyer1
+            [products] => [{"id":12,"quantity":3,"price":369639693,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds"}]
+        )
+
+    [1] => Array
+        (
+            [id] => 30
+            [order_code] => 327f702a-d278-40fd-b0cd-97cd038af713
+            [total_price] => 123213231
+            [status] => paid
+            [payment_image] => 1751721983_999fe8c1d3b05fc3d7fd.png
+            [address] => kkk
+            [username] => buyer1
+            [products] => [{"id":12,"quantity":1,"price":123213231,"name":"ajksdbhgjhdbajs","description":"asddasasdsdds"}]
+        )
+
+)
+

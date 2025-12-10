@@ -1,0 +1,1275 @@
+DEBUG - 2025-07-22 14:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:16:31 --> Array
+(
+    [0] => Array
+        (
+            [id] => 72
+            [order_code] => 7972cd7c-c3ec-47c9-8761-c422e46acae1
+            [total_price] => 60990
+            [status] => paid
+            [payment_image] => 1752657416_b9f9bd008d6ed2aa33b1.jpeg
+            [address] => sandu
+            [username] => rendy
+            [products] => [{"id":33,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"panci ini terbuat dari bahan alumunium yang berbahan 22 oz sangat bagus untuk kami"}]
+        )
+
+    [1] => Array
+        (
+            [id] => 73
+            [order_code] => c89c0d67-51c6-4740-b66e-0a91229e155d
+            [total_price] => 60990
+            [status] => paid
+            [payment_image] => 1752657488_ecec6a4bd474723467c4.jpeg
+            [address] => ohiyaaya
+            [username] => admin
+            [products] => [{"id":33,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"panci ini terbuat dari bahan alumunium yang berbahan 22 oz sangat bagus untuk kami"}]
+        )
+
+)
+
+INFO - 2025-07-22 14:16:31 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 14:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:17:13 --> Array
+(
+    [0] => Array
+        (
+            [id] => 72
+            [order_code] => 7972cd7c-c3ec-47c9-8761-c422e46acae1
+            [total_price] => 60990
+            [status] => paid
+            [payment_image] => 1752657416_b9f9bd008d6ed2aa33b1.jpeg
+            [address] => sandu
+            [username] => rendy
+            [products] => [{"id":33,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"panci ini terbuat dari bahan alumunium yang berbahan 22 oz sangat bagus untuk kami"}]
+        )
+
+    [1] => Array
+        (
+            [id] => 73
+            [order_code] => c89c0d67-51c6-4740-b66e-0a91229e155d
+            [total_price] => 60990
+            [status] => paid
+            [payment_image] => 1752657488_ecec6a4bd474723467c4.jpeg
+            [address] => ohiyaaya
+            [username] => admin
+            [products] => [{"id":33,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"panci ini terbuat dari bahan alumunium yang berbahan 22 oz sangat bagus untuk kami"}]
+        )
+
+)
+
+INFO - 2025-07-22 14:17:13 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 14:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:17:19 --> Array
+(
+    [0] => Array
+        (
+            [id] => 72
+            [order_code] => 7972cd7c-c3ec-47c9-8761-c422e46acae1
+            [total_price] => 60990
+            [status] => paid
+            [payment_image] => 1752657416_b9f9bd008d6ed2aa33b1.jpeg
+            [address] => sandu
+            [username] => rendy
+            [products] => [{"id":33,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"panci ini terbuat dari bahan alumunium yang berbahan 22 oz sangat bagus untuk kami"}]
+        )
+
+    [1] => Array
+        (
+            [id] => 73
+            [order_code] => c89c0d67-51c6-4740-b66e-0a91229e155d
+            [total_price] => 60990
+            [status] => paid
+            [payment_image] => 1752657488_ecec6a4bd474723467c4.jpeg
+            [address] => ohiyaaya
+            [username] => admin
+            [products] => [{"id":33,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"panci ini terbuat dari bahan alumunium yang berbahan 22 oz sangat bagus untuk kami"}]
+        )
+
+)
+
+INFO - 2025-07-22 14:17:19 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 14:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:28:53 --> Array
+(
+    [0] => Array
+        (
+            [id] => 72
+            [order_code] => 7972cd7c-c3ec-47c9-8761-c422e46acae1
+            [total_price] => 60990
+            [status] => paid
+            [payment_image] => 1752657416_b9f9bd008d6ed2aa33b1.jpeg
+            [address] => sandu
+            [username] => rendy
+            [products] => [{"id":33,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"panci ini terbuat dari bahan alumunium yang berbahan 22 oz sangat bagus untuk kami"}]
+        )
+
+    [1] => Array
+        (
+            [id] => 73
+            [order_code] => c89c0d67-51c6-4740-b66e-0a91229e155d
+            [total_price] => 60990
+            [status] => paid
+            [payment_image] => 1752657488_ecec6a4bd474723467c4.jpeg
+            [address] => ohiyaaya
+            [username] => admin
+            [products] => [{"id":33,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"panci ini terbuat dari bahan alumunium yang berbahan 22 oz sangat bagus untuk kami"}]
+        )
+
+)
+
+INFO - 2025-07-22 14:28:53 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 14:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:38:59 --> Array
+(
+    [0] => Array
+        (
+            [id] => 72
+            [order_code] => 7972cd7c-c3ec-47c9-8761-c422e46acae1
+            [total_price] => 60990
+            [status] => paid
+            [payment_image] => 1752657416_b9f9bd008d6ed2aa33b1.jpeg
+            [address] => sandu
+            [username] => rendy
+            [products] => [{"id":33,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"panci ini terbuat dari bahan alumunium yang berbahan 22 oz sangat bagus untuk kami"}]
+        )
+
+    [1] => Array
+        (
+            [id] => 73
+            [order_code] => c89c0d67-51c6-4740-b66e-0a91229e155d
+            [total_price] => 60990
+            [status] => paid
+            [payment_image] => 1752657488_ecec6a4bd474723467c4.jpeg
+            [address] => ohiyaaya
+            [username] => admin
+            [products] => [{"id":33,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"panci ini terbuat dari bahan alumunium yang berbahan 22 oz sangat bagus untuk kami"}]
+        )
+
+)
+
+INFO - 2025-07-22 14:38:59 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 14:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:40:11 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => pending
+            [products] => [{"id":33,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"panci ini terbuat dari bahan alumunium yang berbahan 22 oz sangat bagus untuk kami","image":"1752657272_bdd894fe800d2086cf42.jpg"},{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs ","image":"1753195139_88026d18fbc4391d3aba.jpg"}]
+        )
+
+)
+
+DEBUG - 2025-07-22 14:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:40:52 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [products] => [{"id":33,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"panci ini terbuat dari bahan alumunium yang berbahan 22 oz sangat bagus untuk kami","image":"1752657272_bdd894fe800d2086cf42.jpg"},{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs ","image":"1753195139_88026d18fbc4391d3aba.jpg"}]
+        )
+
+)
+
+DEBUG - 2025-07-22 14:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:41:16 --> Array
+(
+    [0] => Array
+        (
+            [id] => 72
+            [order_code] => 7972cd7c-c3ec-47c9-8761-c422e46acae1
+            [total_price] => 60990
+            [status] => paid
+            [payment_image] => 1752657416_b9f9bd008d6ed2aa33b1.jpeg
+            [address] => sandu
+            [username] => rendy
+            [products] => [{"id":33,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"panci ini terbuat dari bahan alumunium yang berbahan 22 oz sangat bagus untuk kami"}]
+        )
+
+    [1] => Array
+        (
+            [id] => 73
+            [order_code] => c89c0d67-51c6-4740-b66e-0a91229e155d
+            [total_price] => 60990
+            [status] => paid
+            [payment_image] => 1752657488_ecec6a4bd474723467c4.jpeg
+            [address] => ohiyaaya
+            [username] => admin
+            [products] => [{"id":33,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"panci ini terbuat dari bahan alumunium yang berbahan 22 oz sangat bagus untuk kami"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":33,"quantity":1,"price":60990,"name":"Panci Masak Mie Dan Air","description":"panci ini terbuat dari bahan alumunium yang berbahan 22 oz sangat bagus untuk kami"},{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+)
+
+INFO - 2025-07-22 14:41:16 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 14:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:43:19 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+)
+
+INFO - 2025-07-22 14:43:19 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 14:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:51:25 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+)
+
+INFO - 2025-07-22 14:51:25 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 14:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:52:21 --> Array
+(
+    [0] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => pending
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs ","image":"1753195139_88026d18fbc4391d3aba.jpg"},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs","image":"1753195885_7dd569fab1133409a14b.jpg"}]
+        )
+
+)
+
+DEBUG - 2025-07-22 14:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:52:46 --> Array
+(
+    [0] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs ","image":"1753195139_88026d18fbc4391d3aba.jpg"},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs","image":"1753195885_7dd569fab1133409a14b.jpg"}]
+        )
+
+)
+
+DEBUG - 2025-07-22 14:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 14:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:53:03 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+)
+
+INFO - 2025-07-22 14:53:03 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 15:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:01:20 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+)
+
+INFO - 2025-07-22 15:01:20 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 15:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:09:23 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+)
+
+INFO - 2025-07-22 15:09:23 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 15:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:10:25 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+)
+
+INFO - 2025-07-22 15:10:25 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 15:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:11:24 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+)
+
+INFO - 2025-07-22 15:11:24 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 15:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:11:39 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+)
+
+INFO - 2025-07-22 15:11:39 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 15:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 15:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:12:30 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+)
+
+INFO - 2025-07-22 15:12:30 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 15:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:17:03 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+)
+
+INFO - 2025-07-22 15:17:03 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 15:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:59:14 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+)
+
+INFO - 2025-07-22 15:59:14 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 16:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 16:00:06 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+)
+
+INFO - 2025-07-22 16:00:06 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 16:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 16:00:44 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+)
+
+INFO - 2025-07-22 16:00:44 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 16:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 16:01:27 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+)
+
+INFO - 2025-07-22 16:01:27 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+
+DEBUG - 2025-07-22 16:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 16:03:17 --> Array
+(
+    [0] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => pending
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm","image":"1753200086_cdb14e67f1277973ceb5.jpg"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees","image":"1753200044_61739fd8205c81e830e9.jpg"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs","image":"1753200005_e787c01e42c8e1cd74c4.jpg"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm","image":"1753199953_cd3b897611e7fa1db635.jpg"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs","image":"1753197423_5d3d33fb6ecf5adab979.jpg"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs","image":"1753197083_6d7c1d4393281ba77d49.jpg"}]
+        )
+
+)
+
+DEBUG - 2025-07-22 16:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 16:05:08 --> Array
+(
+    [0] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm","image":"1753200086_cdb14e67f1277973ceb5.jpg"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees","image":"1753200044_61739fd8205c81e830e9.jpg"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs","image":"1753200005_e787c01e42c8e1cd74c4.jpg"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm","image":"1753199953_cd3b897611e7fa1db635.jpg"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs","image":"1753197423_5d3d33fb6ecf5adab979.jpg"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs","image":"1753197083_6d7c1d4393281ba77d49.jpg"}]
+        )
+
+)
+
+DEBUG - 2025-07-22 16:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-22 16:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 16:05:40 --> Array
+(
+    [0] => Array
+        (
+            [id] => 74
+            [order_code] => f5658807-71b7-4806-9f73-0afe56f3dec6
+            [total_price] => 84990
+            [status] => paid
+            [payment_image] => 1753195252_518e00ba5b340d0147f1.jpg
+            [address] => dsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "}]
+        )
+
+    [1] => Array
+        (
+            [id] => 75
+            [order_code] => 8af3b315-bb66-461a-8fe5-4490d942dce3
+            [total_price] => 31948
+            [status] => paid
+            [payment_image] => 1753195966_f9ada711882b98d5e424.jpg
+            [address] => sadsadsadas
+            [username] => rendy
+            [products] => [{"id":34,"quantity":1,"price":24000,"name":"Panci Masak Mie Dan Air","description":"Panci Gagang 18cm air rebus susu indomie. Bahan alumunium, Uk Diameter 18cm Tinggi 7.5 cm, Gagang 16 cm. Harga per 1 pcs "},{"id":35,"quantity":1,"price":7948,"name":"Serokan Sampah Plastik ","description":"Pengki warna terbuat dari bahan plastik yang berkualitas tinggi, bisa dicopot dan dipasang. Ukuran L 27cm T 65cm. Harga per 1pcs"}]
+        )
+
+    [2] => Array
+        (
+            [id] => 76
+            [order_code] => f2780a7d-8d99-4a68-8a71-6350edcb3f77
+            [total_price] => 96000
+            [status] => paid
+            [payment_image] => 1753200307_ba87b974abf278cc1b4a.jpeg
+            [address] => sayah adalah
+            [username] => rendy
+            [products] => [{"id":43,"quantity":1,"price":22000,"name":"Pel Lantai Putar Otomatis","description":"Twist Mop merupakan alat pel yang praktis untuk membersihkan lantai dengan daya peras 360 derajat. Cukup putar gagang atas dan bawah berlawanan sampai kering. Ukuran 75x11x11 cm"},{"id":42,"quantity":1,"price":23500,"name":"Panci 2 Fungsi Stainless","description":"Panci ini memiliki 2 fungsi untuk masak air atau masak nasi sudah dilengkapi dengan tutup kaca. Ukuran L 16cm T 14cm berbahan stainlees"},{"id":41,"quantity":1,"price":23000,"name":"Piring Makan Ayam Jago ","description":"Piring makan malam yang terbuat dari bahan plastik tebal yang aman untuk pencucian piring dan tahan lama. Ukuran Diameter 22 cm. Harga per 12pcs"},{"id":40,"quantity":1,"price":14000,"name":"Sendok Makan Noble Polos","description":"Sendok makan stainlees steel tebal premium nobel, Tidak mudah bengkok. Harga diatas adalah harga 1 lusin (12pcs). Ukuran 18cm"},{"id":39,"quantity":1,"price":9000,"name":"Piring Makan Keramik Mahkota","description":"Piring makan 9 inch mahkota, piring ini berkualitas terbaik, cocok untuk rumah makan, prasmanan atau hadiah. Ukuran D 23cm T 3cm. Harga per 1 pcs"},{"id":38,"quantity":1,"price":4500,"name":"Sapu Lidi Tanah Halaman","description":"Bahan dari lidi daun kelapa kering. Lidi tidak mudah rontok atau patah, tangkai diikat dengan kencang jadi nyaman saat digunakan. Harga per 1 pcs"}]
+        )
+
+)
+
+INFO - 2025-07-22 16:05:40 --> Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [name] => Alat masak
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [name] => Alat pembersih
+        )
+
+    [2] => Array
+        (
+            [id] => 4
+            [name] => Alat makan
+        )
+
+)
+

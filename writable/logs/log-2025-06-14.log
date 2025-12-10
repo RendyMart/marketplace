@@ -1,0 +1,14 @@
+CRITICAL - 2025-06-14 13:22:21 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: keranjang]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pages\keranjang.php(57): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xam\\htdocs\\penjualan\\codeigniter4-framework-d021b04\\app\\Views\\pages\\keranjang.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/keranjang', [], true)
+ 5 APPPATH\Controllers\Page.php(9): view('pages/keranjang')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->keran()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
